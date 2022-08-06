@@ -1,0 +1,42 @@
+html{
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #dde3e9; 
+  color: #24292f;     
+}#root{  
+  width: 100vw;
+  height: 100vh;
+}
+.App{
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.change_role_btn{
+  background-color:  #24292f;
+  color: #dde3e9;
+  width: 120px;
+  height: 45px;  
+  border-radius: 20px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  border: 2px solid #24292f;
+  transition: all ease-in-out 0.4s;
+  padding: 0;    
+}
+.container_layaot{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.change_role_btn:hover{
+    background-color: #ffffff;
+    color:  #24292f;
+    border: 2px solid #24292f;
+    transition: all ease-in-out 0.4s;
+}

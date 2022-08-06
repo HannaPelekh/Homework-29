@@ -1,0 +1,63 @@
+.create_container{
+    width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    margin: 0 auto;    
+    flex-direction: column;
+    row-gap: 20px;
+}
+ 
+.create_box{          
+    display: flex;
+    flex-direction: row; 
+    column-gap: 30px; 
+    width: 1200px;  
+    height: 50px; 
+    display: flex;   
+    justify-content: flex-start;
+    align-items: center;     
+}
+.input_title,
+.input_body{
+    border: 2px solid rgba(36, 41, 47, 0.8);
+    width: 45%;   
+    height: 45px;
+    border-radius: 20px;  
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif; 
+    background-color: #f1f4f6;
+    text-align: left;  
+    padding-left: 30px; 
+}
+.input_title::placeholder,
+.input_body::placeholder{
+    color: #24292f;
+    font-size: 20px;
+    line-height: 1.2;
+    font-family: 'Montserrat', sans-serif;  
+    text-align: left;     
+}
+.btn_add_todo{
+    width: 250px;
+    height: 45px;
+    background-color: #24292f;
+    color: #dde3e9; 
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    border: 2px solid #24292f;
+    transition: all ease-in-out 0.4s;
+    padding: 0;    
+}
+.btn_add_todo:hover{
+    background-color: #ffffff;
+    color:  #24292f;
+    border: 2px solid #24292f;
+    transition: all ease-in-out 0.4s;
+}
+.title_create{
+    font-size: 28px;       
+}
